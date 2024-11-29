@@ -141,7 +141,17 @@ p.burgermenu_h{
 
 .leftpart_f{
     justify-content: center;
+    width: 23%;
 }
 .titre_f{
-    font-size: 30px;
+    font-size: 50px;
+}
+
+.flexleft_f{
+    display: flex;
+}
+
+.flexleft_f h4{
+    margin-left: 15px;
+    width: 55%;
 }
