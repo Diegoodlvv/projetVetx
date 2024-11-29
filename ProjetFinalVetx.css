@@ -42,6 +42,13 @@ P /*boutonContactUsOrange*/{
     width: 90px;
 }
 
+input /*divs pour écrire dans les formulaires*/{
+    font-family: Poppins;
+    padding: 18px 0 18px 15px;
+    border: solid  0.5px grey;
+    border-radius: 10px;
+    width: 250px;
+}
 
 .top-contact{
     background-image: url();
@@ -140,12 +147,20 @@ p.burgermenu_h{
 }
 .formulairebloc{
     margin-top: 150px;
+    display: flex;
+    justify-content: left;
 }
 
 .leftpart_f{
     justify-content: center;
-    width: 23%;
+    width: 50%;
     margin-left: 6vw;
+}
+
+.rightpart_f{
+    background-color: aliceblue;
+    padding: 55px 50px 55px 25px;
+    border-radius: 10px;
 }
 .titre_f{
     font-size: 50px;
@@ -164,13 +179,39 @@ p.burgermenu_h{
     width: 50px;
     height: 50px;
     margin-top: 10px;
-    border-radius:100% ;
+    border-radius:100px ;
 }
 .flexleft_f img{
-    padding: 13px 0 0 13px;
+    padding: 13px 0 0 0.7vw;
 }
 
 .flexleft_f h4{
     margin-left: 15px;
     width: 55%;
+}
+
+.input_f img{
+    margin-left: -29px;
+    padding-top: 10px;
+}
+
+.input_f{
+    margin-left: 30px;
+}
+
+.partflexformulaire_f{
+    display: flex;
+}
+
+.inputTitre_f{
+    margin-bottom: 10px;
+}
+
+.MessageInput_f{
+    width: 550px;
+    padding-bottom: 120px;
+}
+
+.ContactFormulaire_f{
+    margin:40px 0 0 30px;
 }
