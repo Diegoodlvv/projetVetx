@@ -138,3 +138,10 @@ p.burgermenu_h{
         width: 55%;
     }
 }
+
+.leftpart_f{
+    justify-content: center;
+}
+.titre_f{
+    font-size: 30px;
+}
