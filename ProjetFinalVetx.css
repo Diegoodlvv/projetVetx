@@ -138,17 +138,36 @@ p.burgermenu_h{
         width: 55%;
     }
 }
+.formulairebloc{
+    margin-top: 150px;
+}
 
 .leftpart_f{
     justify-content: center;
     width: 23%;
+    margin-left: 6vw;
 }
 .titre_f{
     font-size: 50px;
 }
 
+.flexpart_f{
+    margin-top: 30px;
+}
+
 .flexleft_f{
     display: flex;
+}
+
+.img_f{
+    background-color: #FE6B59;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius:100% ;
+}
+.flexleft_f img{
+    padding: 13px 0 0 13px;
 }
 
 .flexleft_f h4{
