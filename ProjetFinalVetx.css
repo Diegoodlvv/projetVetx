@@ -167,6 +167,7 @@ p.burgermenu_h{
     background-color: aliceblue;
     padding: 65px 50px 65px 25px;
     border-radius: 10px;
+    width: 70%;
 }
 .titre_f{
     font-size: 70px;
@@ -196,7 +197,7 @@ h4.loc_f{
     border-radius:100px ;
 }
 .flexleft_f img{
-    padding: 13px 0 0 0.7vw;
+    padding: 12px 0 0 13px;
 }
 
 .flexleft_f h4{
@@ -214,6 +215,7 @@ h4.loc_f{
 
 .partflexformulaire_f{
     display: flex;
+    width: 100%;
 }
 
 .inputTitre_f{
@@ -229,18 +231,45 @@ h4.loc_f{
     margin:40px 0 0 30px;
 }
 
-@media screen and (max-width:1050px){
+@media screen and (max-width:1060px){
+
+    input{
+        width: 100%;
+    }
+    
     .formulairebloc{
         display: block;
+        width: 100%;
+    }
+
+    .input_f img{
+        margin-left: -45px;
     }
 
     .rightpart_f{
-        justify-content: center;
-        width: fit-content;
-        margin:50px auto;
+        width: 80%;
+        margin:50px auto ;
     }
 
     .leftpart_f{
         width: 60%;
     }
+
+    .titre_f{
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .soustitre_f{
+        width: 100%;
+    }
+
+    .input_f{
+        width: 100%;
+    }
+
+    .MessageInput_f{
+        width: 96%;
+    }
+
 }
