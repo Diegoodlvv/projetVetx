@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+}
+
+
+h1/*titres*/{
+    color: #2c2524;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+h2 /*sous_titres*/{
+    color: #817d7d;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h3 /*petits titre (formulaires, divs ect)*/{
+    color: #2c2524;
+    font-family: Poppins;
+}
+
+h4/*titres de la taille des boutons header*/{
+    color: #2c2524;
+    font-family: Poppins;
+}
+
+a/*liens*/{
+    text-decoration: none;
+}
+
+P /*boutonContactUsOrange*/{
+    background-color: #FE6B59;
+    color: white;
+    height: fit-content;
+    font-family: Poppins;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 15px;
+    width: 90px;
+}
+
+
+.top-contact{
+    background-image: url();
+}
+
+.header{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons_h{
+    display: flex;
+}
+
+.button_h{
+    margin-left: 2vw;
+}
+
+.services_h{
+    display: flex;
+}
+
+.services_h img{
+    width: 20px;
+    height: 20px;
+    margin: auto 0 auto 5px ;
+}
+
+.orangepart_h{
+    display: flex;
+}
+
