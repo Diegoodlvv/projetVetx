@@ -44,7 +44,9 @@ P /*boutonContactUsOrange*/{
 
 input /*divs pour écrire dans les formulaires*/{
     font-family: Poppins;
-    padding: 18px 0 18px 15px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 20px 0 20px 15px;
     border: solid  0.5px grey;
     border-radius: 10px;
     width: 250px;
@@ -57,6 +59,10 @@ input /*divs pour écrire dans les formulaires*/{
 .header{
     margin-top: 15px;
     display: flex;
+}
+
+p.Contact_h{
+    margin-right: 40px;
 }
 
 .leftpart_h{
@@ -148,22 +154,30 @@ p.burgermenu_h{
 .formulairebloc{
     margin-top: 150px;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
+    width: 82%;
 }
 
 .leftpart_f{
     justify-content: center;
-    width: 50%;
-    margin-left: 6vw;
+    margin:0 10px 0 6vw;
 }
 
 .rightpart_f{
     background-color: aliceblue;
-    padding: 55px 50px 55px 25px;
+    padding: 65px 50px 65px 25px;
     border-radius: 10px;
 }
 .titre_f{
-    font-size: 50px;
+    font-size: 70px;
+}
+
+.soustitre_f{
+    width: 60%;
+}
+
+h4.loc_f{
+    width: 40%;
 }
 
 .flexpart_f{
@@ -187,7 +201,6 @@ p.burgermenu_h{
 
 .flexleft_f h4{
     margin-left: 15px;
-    width: 55%;
 }
 
 .input_f img{
@@ -214,4 +227,20 @@ p.burgermenu_h{
 
 .ContactFormulaire_f{
     margin:40px 0 0 30px;
+}
+
+@media screen and (max-width:1050px){
+    .formulairebloc{
+        display: block;
+    }
+
+    .rightpart_f{
+        justify-content: center;
+        width: fit-content;
+        margin:50px auto;
+    }
+
+    .leftpart_f{
+        width: 60%;
+    }
 }
