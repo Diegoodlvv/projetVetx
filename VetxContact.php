@@ -162,9 +162,6 @@
                     <h2 class="buttonhidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sagittis faucibus et tincidut varius tincidut diam elementum. Proin eleifend aenean id purus ullamcorper pelletensque. Sit est arcu, orci faucibus dolor praesent euismod. Consectetur rhoncus urna venenatis, aliquam gravida faucibus tortor venenatis faucibus. Faucibus curabitur tempus est aliquet hendrerit. Proin eleifend aenean id purus ullamcorper pellentesque</h2>
                     <h2 class="buttonhidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sagittis faucibus et tincidut varius tincidut diam elementum. Proin eleifend aenean id purus ullamcorper pelletensque. Sit est arcu, orci faucibus dolor praesent euismod. Consectetur rhoncus urna venenatis, aliquam gravida faucibus tortor venenatis faucibus. Faucibus curabitur tempus est aliquet hendrerit. Proin eleifend aenean id purus ullamcorper pellentesque</h2>
                     <h2 class="buttonhidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sagittis faucibus et tincidut varius tincidut diam elementum. Proin eleifend aenean id purus ullamcorper pelletensque. Sit est arcu, orci faucibus dolor praesent euismod. Consectetur rhoncus urna venenatis, aliquam gravida faucibus tortor venenatis faucibus. Faucibus curabitur tempus est aliquet hendrerit. Proin eleifend aenean id purus ullamcorper pellentesque</h2>
-                    <img src="images/shape-2-instagram-veterinary.svg" class=imgrouge_qs>
-                    <img src="images/shape-1-footer-veterinary.svg" class=imgjaune_qs>
-                    <img src="images/shape-1-home-hero-veterinary.svg" class=imgverte_qs>
                 </div>
             </div>
         </div>

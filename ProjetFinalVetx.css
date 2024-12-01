@@ -475,6 +475,7 @@ h4.loc_fo {
 }
 
 .textbutton_qs {
+    display: flex;
     z-index: 2;
     margin-left: 3vw;
     border: 1px #D1CDCE solid;
@@ -500,4 +501,10 @@ h4.loc_fo {
 .imgverte_qs {
     z-index: -1;
     position: absolute;
+}
+
+@media screen and (max-width:1060px) {
+    .qs {
+        margin-top: 650px;
+    }
 }
