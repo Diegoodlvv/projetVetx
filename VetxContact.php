@@ -147,6 +147,27 @@
             <h1 class="titre_qs">Frequently Asked Questions</h1>
             <h2 class="soustitre_qs">Porta nibh venenatis cras sed felis. Odio ut sem nulla pharetra diam sit. Tristique senectus et netus et</h2>
         </div>
+
+        <div class="buttons_qs">
+            <div class="fourbuttons_qs">
+                <h4 class="button_qs1">How can I make a reservation?</h4>
+                <h4 class="button_qs2">What services do you offer?</h4>
+                <h4 class="button_qs3">Do you offer urgent appointments?</h4>
+                <h4 class="button_qs4">What is your staff experience?</h4>
+            </div>
+
+            <div class="rightpart_qs">
+                <div class="textbutton_qs">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sagittis faucibus et tincidut varius tincidut diam elementum. Proin eleifend aenean id purus ullamcorper pelletensque. Sit est arcu, orci faucibus dolor praesent euismod. Consectetur rhoncus urna venenatis, aliquam gravida faucibus tortor venenatis faucibus. Faucibus curabitur tempus est aliquet hendrerit. Proin eleifend aenean id purus ullamcorper pellentesque</h2>
+                    <h2 class="buttonhidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sagittis faucibus et tincidut varius tincidut diam elementum. Proin eleifend aenean id purus ullamcorper pelletensque. Sit est arcu, orci faucibus dolor praesent euismod. Consectetur rhoncus urna venenatis, aliquam gravida faucibus tortor venenatis faucibus. Faucibus curabitur tempus est aliquet hendrerit. Proin eleifend aenean id purus ullamcorper pellentesque</h2>
+                    <h2 class="buttonhidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sagittis faucibus et tincidut varius tincidut diam elementum. Proin eleifend aenean id purus ullamcorper pelletensque. Sit est arcu, orci faucibus dolor praesent euismod. Consectetur rhoncus urna venenatis, aliquam gravida faucibus tortor venenatis faucibus. Faucibus curabitur tempus est aliquet hendrerit. Proin eleifend aenean id purus ullamcorper pellentesque</h2>
+                    <h2 class="buttonhidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sagittis faucibus et tincidut varius tincidut diam elementum. Proin eleifend aenean id purus ullamcorper pelletensque. Sit est arcu, orci faucibus dolor praesent euismod. Consectetur rhoncus urna venenatis, aliquam gravida faucibus tortor venenatis faucibus. Faucibus curabitur tempus est aliquet hendrerit. Proin eleifend aenean id purus ullamcorper pellentesque</h2>
+                    <img src="images/shape-2-instagram-veterinary.svg" class=imgrouge_qs>
+                    <img src="images/shape-1-footer-veterinary.svg" class=imgjaune_qs>
+                    <img src="images/shape-1-home-hero-veterinary.svg" class=imgverte_qs>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="ProjetFinalVetx.js"></script>
 </body>

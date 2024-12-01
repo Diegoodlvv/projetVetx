@@ -321,6 +321,7 @@ h4.loc_fo {
 }
 
 
+
 @media screen and (max-width:1760px) {
     .soustitre_fo {
         width: 100%;
@@ -433,4 +434,70 @@ h4.loc_fo {
 .soustitre_qs {
     width: 35%;
     margin: 0 auto;
+}
+
+.buttons_qs {
+    display: flex;
+    margin-top: 150px;
+}
+
+.buttonhidden {
+    display: none;
+}
+
+.fourbuttons_qs {
+    margin-left: 15%;
+}
+
+.button_qs1,
+.button_qs2,
+.button_qs3,
+.button_qs4 {
+    font-weight: 800;
+    border: 1px #D1CDCE solid;
+    width: 25vw;
+    font-size: 20px;
+    padding: 25px 15px;
+    border-radius: 15px;
+    margin: 18px 0;
+}
+
+.button_qs1.\.button2_qs,
+.button_qs2.\.button2_qs,
+.button_qs3.\.button2_qs,
+.button_qs4.\.button2_qs {
+    border: solid 2px #FE6B59;
+    color: #FE6B59;
+}
+
+.rightpart_qs {
+    position: relative;
+}
+
+.textbutton_qs {
+    z-index: 2;
+    margin-left: 3vw;
+    border: 1px #D1CDCE solid;
+    border-radius: 15px;
+    width: 50%;
+    height: fit-content;
+    padding: 50px 80px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.imgrouge_qs {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+}
+
+.imgjaune_qs {
+    z-index: -1;
+    position: absolute;
+}
+
+.imgverte_qs {
+    z-index: -1;
+    position: absolute;
 }
