@@ -7,31 +7,31 @@ $password = "";
 try {
     $bdd = new PDO("mysql:host=$servername;dbname=users", $username, $password);
     $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Connexion réussi !";
+    echo "connexion réussi";
 } catch (PDOException $e) {
-    echo "Erreur :" . $e->getMessage();
+    echo "Erreur : " . $e->getMessage();
 }
 
-if (isset($_post['ok'])) {
-    extract($_post);
-    $nom = $_post['nom'];
-    $email = $_post['email'];
-    $phone = $_post['phone'];
-    $service = $_post['services'];
-    $Date = $_post['visitDate'];
-    $Time = $_post['schedule'];
-    $Message = $_post['messages'];
+if (isset($_POST['ok'])) {
+    var_dump($_POST);
+    $nom = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['Phone'];
+    $service = $_POST['services'];
+    $Date = $_POST['visitDate'];
+    $Time = $_POST['schedule'];
+    $Message = $_POST['messages'];
 
-    $requete = $bdd->prepare("INSERT INTO users VALUES(:nom,:email,:phone,:services,:visitDate,:schedule,:messages)");
+    $requete = $bdd->prepare("INSERT INTO utilisateurs VALUES(0,:nom,:email,:telephone,:services,:date_de_visite,:heure_de_visite,:message_utilisateur)");
     $requete->execute(
         array(
             "nom" => $nom,
             "email" => $email,
-            "phone" => $phone,
-            "service" => $service,
-            "Date" => $Date,
-            "Time" => $Time,
-            "Message" => $Message
+            "telephone" => $phone,
+            "services" => $service,
+            "date_de_visite" => $Date,
+            "heure_de_visite" => $Time,
+            "message_utilisateur" => $Message
         )
     );
 
