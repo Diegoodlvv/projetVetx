@@ -305,18 +305,18 @@ h4.loc_fo {
 }
 
 .imagejaune_fo {
-    z-index: 1;
+    z-index: -1;
     position: absolute;
     left: 0;
 }
 
 .imagerouge_fo {
-    z-index: 1;
+    z-index: -1;
     position: absolute;
 }
 
 .imageverte_fo {
-    z-index: 1;
+    z-index: -1;
     position: absolute;
 }
 
@@ -352,8 +352,12 @@ h4.loc_fo {
         margin: 50px auto;
     }
 
+    .flexleft_fo {
+        width: 90%;
+    }
+
     .leftpart_fo {
-        width: 95%;
+        width: 90%;
         justify-content: center;
     }
 
@@ -385,6 +389,10 @@ h4.loc_fo {
 }
 
 @media screen and (max-width:650px) {
+
+    .rightpart_fo {
+        padding-right: 10%;
+    }
 
     .titre_fo {
         font-size: 40px;
@@ -505,6 +513,78 @@ h4.loc_fo {
 
 @media screen and (max-width:1060px) {
     .qs {
-        margin-top: 650px;
+        margin-top: 900px;
+    }
+
+    .soustitre_qs {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .qs {
+        height: 100%;
+    }
+
+    .toppart_qs {
+        padding-bottom: 0px;
+    }
+
+    .buttons_qs {
+        display: block;
+        margin-top: 50px
+    }
+
+    .fourbuttons_qs {
+        margin-left: 1vw;
+
+    }
+
+    .button_qs1,
+    .button_qs2,
+    .button_qs3,
+    .button_qs4 {
+        width: 95%;
+        margin: 30px 0;
+        padding-right: 0;
+        padding-left: 2%;
+    }
+
+    .textbutton_qs {
+        width: 90%;
+        padding: 20px 3%;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .qs {
+        margin-top: 1300px;
+    }
+
+    .titre_qs {
+        font-size: 25px;
+    }
+
+    .soustitre_qs {
+        font-size: 13px;
+    }
+
+    .button_qs1,
+    .button_qs2,
+    .button_qs3,
+    .button_qs4 {
+        font-size: 15px;
+    }
+
+    .textbutton_qs h2 {
+        font-size: 13px;
+    }
+
+    .textbutton_qs {
+        margin-top: 70px;
+        padding: 7%;
+        width: 79%;
     }
 }
