@@ -1,0 +1,173 @@
+body {
+  margin: 0px auto;
+  font-family: Poppins;
+}
+
+h1/*titres*/ {
+  color: #2c2524;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+h2 /*sous_titres*/ {
+  color: #817d7d;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h3 /*petits titre (formulaires, divs ect)*/ {
+  color: #2c2524;
+  font-family: Poppins;
+}
+
+h4/*titres de la taille des boutons header*/ {
+  color: #2c2524;
+  font-family: Poppins;
+}
+
+a/*liens*/ {
+  text-decoration: none;
+}
+
+P /*boutonContactUsOrange*/ {
+  background-color: #fe6b59;
+  color: white;
+  height: fit-content;
+  font-family: Poppins;
+  font-weight: 600;
+  padding: 17px 30px;
+  border-radius: 15px;
+  width: 90px;
+}
+
+.logo_h {
+  width: 125px;
+  margin: 0% 0% 2% 5vw;
+}
+
+.FootContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.LeftFoot {
+  margin-top: 3%;
+  width: 33%;
+}
+
+.L_F_Text {
+  margin-left: 5vw;
+  max-width: 58%;
+  margin-bottom: 1%;
+}
+
+.L_F_Text span {
+  color: #817d7d;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.L_F_Logo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 4vw;
+}
+
+.L_F_Img1 {
+  background-color: #e0dada;
+  width: 36px;
+  height: 17px;
+  border-radius: 126px;
+  padding: 8px 2px 12px 0px;
+  margin: 1% 0.8% 0px 3%;
+}
+
+.L_F_Img1 img {
+  width: 50%;
+  margin-left: 28%;
+  display: flex;
+  margin-top: 6%;
+}
+
+.M_Title h5 {
+  padding: 17px 30px;
+  font-weight: 600;
+  font-size: 19px;
+  font-family: Poppins;
+}
+
+.M_Title p {
+  color: grey;
+  background-color: unset;
+  width: 162px;
+  cursor: pointer;
+  margin-left: 18%;
+  margin-bottom: 28%;
+  padding: 0;
+  cursor: pointer;
+}
+
+.M_Title p:hover {
+  color: #fe6b59;
+  border-bottom: 4px solid #fe6b59;
+  width: 100%;
+  border-radius: 3px;
+  margin-top: 5%;
+}
+
+.RightFoot {
+  display: flex;
+  margin-top: 5%;
+  height: 50%;
+}
+
+.R_Contact_Img1 {
+  z-index: -1;
+  display: flex;
+  position: absolute;
+  margin: -2% 0% 0% -3%;
+}
+
+.R_Contact_Img2 {
+  transform: rotate(121deg);
+  z-index: -1;
+  display: flex;
+  position: absolute;
+  margin: 15% 0% 0% 17%;
+}
+
+.R_In_Contact {
+  z-index: 2;
+  display: flex;
+  position: relative;
+  background-color: #fbfbfb;
+  padding: 44px 1px 20px 37px;
+  flex-direction: column;
+  width: 62%;
+  border-radius: 12px;
+}
+
+.R_In_Contact h3 {
+  color: #2c2524;
+  font-family: Poppins;
+  margin-left: 8%;
+  font-size: 156%;
+  font-weight: 900;
+}
+
+.R_In_Contact p {
+  color: grey;
+  background-color: unset;
+  width: 78%;
+  display: flex;
+  font-size: 111%;
+  margin-top: -4%;
+}
+
+.R_In_Contact img {
+  display: flex;
+  margin-right: 5%;
+}
