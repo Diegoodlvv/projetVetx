@@ -133,12 +133,11 @@
                         <input class="MessageInput_fo" type="text" placeholder="Write your message here..." name="messages" required>
                     </div>
 
-                    <input type="submit" class="Submit_fo" value="Contact Us" name="ok">
+                    <input type="submit" class="Submit_fo" value="Contact Us" name="recup">
+                    <img src="images/shape-1-instagram-veterinary.svg" class="imagejaune_fo">
+                    <img src="images/shape-1-cta-veterinary.svg" class="imagerouge_fo">
+                    <img src="images/shape-2-testimonials-veterinary.svg" class="imageverte_fo">
                 </form>
-                <img src="images/shape-1-instagram-veterinary.svg" class="imagejaune_fo">
-                <img src="images/shape-1-cta-veterinary.svg" class="imagerouge_fo">
-                <img src="images/shape-2-testimonials-veterinary.svg" class="imageverte_fo">
-
             </div>
         </div>
     </div>
@@ -163,6 +162,9 @@
                     <h2 class="buttonhidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sagittis faucibus et tincidut varius tincidut diam elementum. Proin eleifend aenean id purus ullamcorper pelletensque. Sit est arcu, orci faucibus dolor praesent euismod. Consectetur rhoncus urna venenatis, aliquam gravida faucibus tortor venenatis faucibus. Faucibus curabitur tempus est aliquet hendrerit. Proin eleifend aenean id purus ullamcorper pellentesque</h2>
                     <h2 class="buttonhidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sagittis faucibus et tincidut varius tincidut diam elementum. Proin eleifend aenean id purus ullamcorper pelletensque. Sit est arcu, orci faucibus dolor praesent euismod. Consectetur rhoncus urna venenatis, aliquam gravida faucibus tortor venenatis faucibus. Faucibus curabitur tempus est aliquet hendrerit. Proin eleifend aenean id purus ullamcorper pellentesque</h2>
                 </div>
+                <div class="imgjaune_qs"><img src="images/shape-1-footer-veterinary.svg"></div>
+                <div class=" imgrouge_qs"><img src="images/shape-2-instagram-veterinary.svg" alt=""></div>
+                <div class="imgverte_qs"><img src="images/shape-1-home-hero-veterinary.svg" alt=""></div>
             </div>
         </div>
     </div>

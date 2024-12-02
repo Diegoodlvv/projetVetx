@@ -12,8 +12,7 @@ try {
     echo "Erreur : " . $e->getMessage();
 }
 
-if (isset($_POST['ok'])) {
-    var_dump($_POST);
+if (isset($_POST['recup'])) {
     $nom = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['Phone'];
@@ -22,7 +21,7 @@ if (isset($_POST['ok'])) {
     $Time = $_POST['schedule'];
     $Message = $_POST['messages'];
 
-    $requete = $bdd->prepare("INSERT INTO utilisateurs VALUES(0,:nom,:email,:telephone,:services,:date_de_visite,:heure_de_visite,:message_utilisateur)");
+    $requete = $bdd->prepare("INSERT INTO utilisateurs VALUES(:nom,:email,:telephone,:services,:date_de_visite,:heure_de_visite,:message_utilisateur)");
     $requete->execute(
         array(
             "nom" => $nom,
