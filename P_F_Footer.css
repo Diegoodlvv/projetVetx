@@ -3,35 +3,53 @@ body {
   font-family: Poppins;
 }
 
-h1/*titres*/ {
+h1
+
+/*titres*/
+  {
   color: #2c2524;
   font-family: Poppins;
   font-size: 22px;
   font-weight: 800;
 }
 
-h2 /*sous_titres*/ {
+h2
+
+/*sous_titres*/
+  {
   color: #817d7d;
   font-family: Poppins;
   font-size: 18px;
   font-weight: 500;
 }
 
-h3 /*petits titre (formulaires, divs ect)*/ {
+h3
+
+/*petits titre (formulaires, divs ect)*/
+  {
   color: #2c2524;
   font-family: Poppins;
 }
 
-h4/*titres de la taille des boutons header*/ {
+h4
+
+/*titres de la taille des boutons header*/
+  {
   color: #2c2524;
   font-family: Poppins;
 }
 
-a/*liens*/ {
+a
+
+/*liens*/
+  {
   text-decoration: none;
 }
 
-P /*boutonContactUsOrange*/ {
+P
+
+/*boutonContactUsOrange*/
+  {
   background-color: #fe6b59;
   color: white;
   height: fit-content;
@@ -51,6 +69,7 @@ P /*boutonContactUsOrange*/ {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 100px;
 }
 
 .LeftFoot {
@@ -120,7 +139,7 @@ P /*boutonContactUsOrange*/ {
 
 .RightFoot {
   display: flex;
-  margin: 5% 0% 0% 17%;
+  margin: 5% 0 0 8vw;
   height: 50%;
 }
 
@@ -176,12 +195,27 @@ P /*boutonContactUsOrange*/ {
   display: flex;
 }
 
-@media (max-width: 1040px) {
+.flexrightPart_f {
+  display: flex;
+}
+
+@media (max-width: 1340px) {
   .FootContainer {
     flex-direction: column;
+    justify-content: center;
   }
+
   .L_F_Text {
     min-width: 128%;
+  }
+
+  .rightPart_f {
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .RightFoot {
+    margin-top: 30px;
   }
 }
 
@@ -189,14 +223,17 @@ P /*boutonContactUsOrange*/ {
   .FootContainer {
     flex-direction: column;
   }
+
   .rightPart_f {
     flex-direction: column;
     display: flex;
   }
+
   .MidFoot {
     display: flex;
     flex-direction: unset;
   }
+
   .L_F_Img1 {
     padding: 5px 2px 2px 0px;
   }
