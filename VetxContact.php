@@ -17,7 +17,7 @@
         <div class="top-contact">
             <div class="header">
                 <div class="leftpart_h">
-                    <img loading="lazy" src="images/logo-vet%2520(1).svg" class="logo_h" alt="">
+                    <img src="images/logo-vet%2520(1).svg" class="logo_h" alt="">
                     <div class="buttons_h">
                         <a href="">
                             <h4 class="button_h">Home</h4>
@@ -39,24 +39,20 @@
                 <div class="orangepart_h">
                     <h4 class="buttonspecial_h">Cart(0)</h4>
                     <p class="Contact_h">Contact us</p>
-                    <div class="BurgerMenu">
-                        <div class="ButtonBurgerMenu">
-                            <a href="VetxAbout.html">
-                                <h5>About</h5>
-                            </a>
+                    <div class="burgermenu_h">
+                        <img src="images/menu.png">
+                        <div class="BurgerButtons">
                             <a href="VetxContact.html">
+                                <h5>Contact</h5>
+                            </a>
+                            <a href="VetxHome.html">
                                 <h5>Home</h5>
                             </a>
-                            <a href="#">
-                                <h5>Contacts</h5>
-                            </a>
-                            <a href="#">
-                                <h5>Services</h5>
-                            </a>
+
+                            <h5>Services</h5>
+
+                            <h5>Pages</h5>
                         </div>
-                    </div>
-                    <div class="burgermenu_h">
-                        <img src="images/menu.png" alt="menu">
                     </div>
                 </div>
             </div>
@@ -87,12 +83,12 @@
             </div>
 
             <div class="rightpart_fo">
-                <form method="POST" action="ProjetFinal.php">
+                <form method="POST" action="traitement.php">
                     <div class="partflexformulaire_fo">
                         <div class="input_fo">
                             <h4 class="inputTitre_fo">Name</h4>
                             <div class="inputflex_fo">
-                                <input type="text" placeholder="Enter your name" name="name" required>
+                                <input type="text" name="name" placeholder="Enter your name" required>
                                 <img src="images/carte-didentite.png">
                             </div>
                         </div>
@@ -133,12 +129,11 @@
                         <input class="MessageInput_fo" type="text" placeholder="Write your message here..." name="messages" required>
                     </div>
 
-                    <input type="submit" class="Submit_fo" value="Contact Us" name="ok">
+                    <input type="submit" class="Submit_fo" value="Contact Us" name="recup">
+                    <img src="images/shape-1-instagram-veterinary.svg" class="imagejaune_fo">
+                    <img src="images/shape-1-cta-veterinary.svg" class="imagerouge_fo">
+                    <img src="images/shape-2-testimonials-veterinary.svg" class="imageverte_fo">
                 </form>
-                <img src="images/shape-1-instagram-veterinary.svg" class="imagejaune_fo">
-                <img src="images/shape-1-cta-veterinary.svg" class="imagerouge_fo">
-                <img src="images/shape-2-testimonials-veterinary.svg" class="imageverte_fo">
-
             </div>
         </div>
     </div>
@@ -163,6 +158,9 @@
                     <h2 class="buttonhidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sagittis faucibus et tincidut varius tincidut diam elementum. Proin eleifend aenean id purus ullamcorper pelletensque. Sit est arcu, orci faucibus dolor praesent euismod. Consectetur rhoncus urna venenatis, aliquam gravida faucibus tortor venenatis faucibus. Faucibus curabitur tempus est aliquet hendrerit. Proin eleifend aenean id purus ullamcorper pellentesque</h2>
                     <h2 class="buttonhidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sagittis faucibus et tincidut varius tincidut diam elementum. Proin eleifend aenean id purus ullamcorper pelletensque. Sit est arcu, orci faucibus dolor praesent euismod. Consectetur rhoncus urna venenatis, aliquam gravida faucibus tortor venenatis faucibus. Faucibus curabitur tempus est aliquet hendrerit. Proin eleifend aenean id purus ullamcorper pellentesque</h2>
                 </div>
+                <div class="imgjaune_qs"><img src="images/shape-1-footer-veterinary.svg"></div>
+                <div class=" imgrouge_qs"><img src="images/shape-2-instagram-veterinary.svg" alt=""></div>
+                <div class="imgverte_qs"><img src="images/shape-1-home-hero-veterinary.svg" alt=""></div>
             </div>
         </div>
     </div>
