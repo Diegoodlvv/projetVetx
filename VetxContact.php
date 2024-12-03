@@ -19,10 +19,10 @@
                 <div class="leftpart_h">
                     <img src="images/logo-vet%2520(1).svg" class="logo_h" alt="">
                     <div class="buttons_h">
-                        <a href="">
+                        <a href="VetxHome.html">
                             <h4 class="button_h">Home</h4>
                         </a>
-                        <a href="">
+                        <a href="VetxAbout.html">
                             <h4 class="button_h">About</h4>
                         </a>
                         <div class="services_h">
@@ -42,8 +42,8 @@
                     <div class="burgermenu_h">
                         <img src="images/menu.png">
                         <div class="BurgerButtons">
-                            <a href="VetxContact.html">
-                                <h5>Contact</h5>
+                            <a href="VetxAbout.html">
+                                <h5>About</h5>
                             </a>
                             <a href="VetxHome.html">
                                 <h5>Home</h5>
