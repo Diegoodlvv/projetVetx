@@ -31,6 +31,10 @@ a/*liens*/ {
   text-decoration: none;
 }
 
+.FollowUsContainer {
+  overflow-x: hidden;
+}
+
 .F_U_Top {
   display: flex;
   justify-content: center;
@@ -57,30 +61,36 @@ a/*liens*/ {
 }
 
 .F_U_B1 {
-  z-index: -1;
-  display: flex;
   position: absolute;
-  transform: rotate(96deg);
-  top: 15px;
-  left: 103px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 17%;
+  margin-top: 8px;
+  margin-left: 84px;
+  transform: rotate(115deg);
 }
 
 .F_U_B2 {
-  z-index: -1;
-  display: flex;
   position: absolute;
-  transform: rotate(110deg);
-  right: 71px;
-  top: 63px;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  margin-top: 3%;
+  margin-right: 3.5%;
+  width: 10%;
+  transform: rotate(120deg);
 }
 
 .F_U_B3 {
-  z-index: -1;
-  display: flex;
   position: absolute;
-  transform: rotate(-37deg);
-  right: 550px;
-  top: 453px;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  width: 17%;
+  margin-top: 27%;
+  margin-right: 27%;
+  transform: rotate(120deg);
 }
 
 .F_U_M_Left {
@@ -90,6 +100,8 @@ a/*liens*/ {
 .F_U_Mid {
   display: flex;
   margin-left: 11%;
+  position: relative;
+  z-index: 2;
 }
 
 .F_U_M_Left img {
@@ -112,4 +124,75 @@ a/*liens*/ {
 
 .F_R_Img1 {
   margin-left: -18%;
+}
+
+.F_U_M_Img {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .F_U_B3 {
+    width: 21%;
+    margin-top: 30%;
+    margin-right: 35%;
+    transform: rotate(182deg);
+  }
+  .F_U_B2 {
+    margin-top: 10%;
+    margin-right: 2.5%;
+    width: 12%;
+    transform: rotate(106deg);
+    overflow: hidden;
+  }
+  .F_U_B1 {
+    width: 27%;
+    margin-top: 40px;
+    margin-left: -24px;
+    transform: rotate(94deg);
+  }
+  .F_U_Top p {
+    margin: 3.4% 0% 0% 0.5%;
+  }
+}
+@media (max-width: 460px) {
+  .F_U_M_Img {
+    display: grid;
+  }
+  .F_U_M_Left img {
+    width: 43%;
+  }
+  .F_U_M_Right {
+    margin-left: 0%;
+  }
+  .F_U_Top p {
+    font-size: 22px;
+  }
+  .F_U_Top h1 {
+    font-size: 22px;
+  }
+  .F_U_M_Left {
+    margin-bottom: 6%;
+  }
+  .F_U_M_Right img {
+    width: 92%;
+  }
+  .F_U_B3 {
+    width: 39%;
+    margin-top: 117%;
+    margin-right: 38%;
+    transform: rotate(182deg);
+  }
+  .F_U_B2 {
+    margin-top: 10%;
+    margin-right: 2.5%;
+    width: 17%;
+    transform: rotate(106deg);
+    overflow: hidden;
+  }
+  .F_U_B1 {
+    width: 30%;
+    margin-top: 15px;
+    margin-left: -24px;
+    transform: rotate(94deg);
+  }
 }
