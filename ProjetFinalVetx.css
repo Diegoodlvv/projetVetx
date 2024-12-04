@@ -725,6 +725,17 @@ PASSAGE SITE ABOUT*/
 
 .titre_au {
     font-size: 65px;
+    animation: titre_au 3s linear;
+}
+
+@keyframes titre_au {
+    from {
+        font-size: 0px;
+    }
+
+    to {
+        font-size: 65px;
+    }
 }
 
 .soustitre_au {
@@ -765,7 +776,27 @@ PASSAGE SITE ABOUT*/
     right: 10%;
     bottom: -35%;
     max-width: 10%;
-    transform: rotate(90deg);
+    animation: imageRouge2_au 10s linear infinite
+}
+
+@keyframes imageRouge2_au {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes imageJaune2_au {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .imgJaune_au {
@@ -792,7 +823,8 @@ PASSAGE SITE ABOUT*/
     left: -7%;
     top: -20px;
     transform: rotate(-120deg);
-    z-index: 2;
+    animation: imageJaune2_au 10s linear infinite;
+    z-index: 2
 }
 
 @media screen and (max-width:1500px) {
@@ -856,10 +888,11 @@ PASSAGE SITE ABOUT*/
     margin-left: 5vw;
 }
 
+
 .img1_sy img {
     width: 700px;
     border-radius: 15px;
-    transform: rotate(2deg);
+    /* transform: rotate(2deg); */
 }
 
 .img2_sy {
