@@ -1,0 +1,115 @@
+body {
+  margin: 0px auto;
+  font-family: Poppins;
+}
+
+h1/*titres*/ {
+  color: #2c2524;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+h2 /*sous_titres*/ {
+  color: #817d7d;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h3 /*petits titre (formulaires, divs ect)*/ {
+  color: #2c2524;
+  font-family: Poppins;
+}
+
+h4/*titres de la taille des boutons header*/ {
+  color: #2c2524;
+  font-family: Poppins;
+}
+
+a/*liens*/ {
+  text-decoration: none;
+}
+
+.F_U_Top {
+  display: flex;
+  justify-content: center;
+}
+
+.F_U_Top h1 {
+  font-size: 40px;
+  display: flex;
+}
+
+.F_U_Top p {
+  font-size: 40px;
+  display: flex;
+  margin: 1.4% 0% 0% 0.5%;
+  font-weight: 800;
+  color: #fe6b59;
+  text-decoration: underline;
+}
+
+.F_U_Background {
+  z-index: -1;
+  display: flex;
+  position: absolute;
+}
+
+.F_U_B1 {
+  z-index: -1;
+  display: flex;
+  position: absolute;
+  transform: rotate(96deg);
+  top: 15px;
+  left: 103px;
+}
+
+.F_U_B2 {
+  z-index: -1;
+  display: flex;
+  position: absolute;
+  transform: rotate(110deg);
+  right: 71px;
+  top: 63px;
+}
+
+.F_U_B3 {
+  z-index: -1;
+  display: flex;
+  position: absolute;
+  transform: rotate(-37deg);
+  right: 550px;
+  top: 453px;
+}
+
+.F_U_M_Left {
+  display: flex;
+}
+
+.F_U_Mid {
+  display: flex;
+  margin-left: 11%;
+}
+
+.F_U_M_Left img {
+  width: 79%;
+  display: flex;
+  margin-right: 2%;
+  border-radius: 16px;
+}
+
+.F_U_M_Right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 25%;
+  gap: 25px;
+}
+.F_U_M_Right img {
+  width: 79%;
+  border-radius: 16px;
+}
+
+.F_R_Img1 {
+  margin-left: -18%;
+}
