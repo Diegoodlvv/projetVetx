@@ -472,7 +472,7 @@ form {
 }
 
 .qs {
-    margin-top: 400px;
+    margin-top: 30%;
     background-color: #FBFBFB;
     height: 100vh;
 }
@@ -552,7 +552,7 @@ form {
     z-index: -1;
     display: flex;
     position: absolute;
-    right: 175px;
+    right: 13%;
     animation: imagerouge_qs 15s linear infinite;
     top: -70px;
 }
@@ -1091,6 +1091,10 @@ PASSAGE SITE ABOUT*/
     .titre_team {
         width: 60%;
         font-size: 40px;
+    }
+
+    .Ov img {
+        margin-left: 0;
     }
 }
 

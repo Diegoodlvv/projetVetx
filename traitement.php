@@ -13,6 +13,7 @@ try {
 }
 
 if (isset($_POST['recup'])) {
+    var_dump($_POST);
     $nom = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['Phone'];
