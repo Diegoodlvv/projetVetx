@@ -235,6 +235,20 @@ p.Contact_h {
 .titre_fo {
     font-size: 70px;
     margin-top: 0;
+    animation: titre_fo 2s linear;
+}
+
+@keyframes titre_fo {
+
+    from {
+        width: 1%;
+        font-size: 0;
+    }
+
+    to {
+        width: 100%;
+        font-size: 70px;
+    }
 }
 
 .soustitre_fo {
@@ -725,7 +739,7 @@ PASSAGE SITE ABOUT*/
 
 .titre_au {
     font-size: 65px;
-    animation: titre_au 3s linear;
+    animation: titre_au 5s linear;
 }
 
 @keyframes titre_au {
@@ -742,7 +756,7 @@ PASSAGE SITE ABOUT*/
     width: 1000px;
     font-size: 25px;
     margin: 0 auto;
-    animation: soustitre_au 2s linear;
+    animation: soustitre_au 5s linear;
 }
 
 
@@ -904,7 +918,7 @@ PASSAGE SITE ABOUT*/
 .img1_sy img {
     width: 700px;
     border-radius: 15px;
-    /* transform: rotate(2deg); */
+    transform: rotate(2deg);
 }
 
 .img2_sy {
