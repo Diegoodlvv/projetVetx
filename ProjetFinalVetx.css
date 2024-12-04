@@ -1092,6 +1092,10 @@ PASSAGE SITE ABOUT*/
         width: 60%;
         font-size: 40px;
     }
+
+    .Ov img {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width:600px) {
