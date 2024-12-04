@@ -1181,3 +1181,131 @@ PASSAGE SITE ABOUT*/
         width: 100%;
     }
 }
+
+.hHome {
+    height: 100%;
+    background-color: #FFFAF6;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 32%;
+}
+
+.Av {
+    display: flex;
+}
+
+.flex1_av {
+    margin: 15% auto 0 5vw;
+    width: 100%;
+}
+
+
+.Grandeimage_av {
+    position: relative;
+}
+
+.Grandeimg_av {
+    width: 100%;
+    margin: 120px 0 0 0;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 10%;
+}
+
+
+.titre_av {
+    font-size: 60px;
+    width: 90%
+}
+
+.soustitre_av {
+    font-size: 25px;
+    width: 70%;
+    margin-bottom: 60px;
+    line-height: 35px;
+}
+
+.imgVerte_av {
+    position: absolute;
+}
+
+@media screen and (max-width:1480px) {
+    .Av {
+        display: block;
+    }
+
+    .hHome {
+        border-bottom-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+    }
+
+    .flex2_av {
+        width: 100%;
+        text-align: center;
+    }
+
+    .flex2_av img {
+        max-width: 80%;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+    }
+
+    .flex1_av {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .titre_av {
+        width: 100%;
+        margin-top: 100Px;
+    }
+
+    .soustitre_av {
+        width: 100%;
+    }
+
+    .Contact_av {
+        margin: 0 auto;
+        font-size: 25px;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .titre_av {
+        font-size: 30px;
+        width: 75%;
+        margin: 120px auto 0 auto;
+    }
+
+    .soustitre_av {
+        font-size: 15px;
+        width: 65%;
+        margin: 30px auto;
+    }
+
+    .Contact_av {
+        font-size: 15px;
+    }
+
+    .flex2_av img {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width:470px) {
+
+    .titre_av {
+        font-size: 25px;
+        width: 75%;
+    }
+
+    .soustitre_av {
+        width: 90%;
+    }
+
+    .Contact_av {
+        font-size: 15px;
+        padding: 20px;
+    }
+}
