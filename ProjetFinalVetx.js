@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function updateCarousel() {
         const translateValue = -currentIndex * 774;
-        carouselWrapperBloc1.style.transform = translateX(${ translateValue }px);
+        carouselWrapperBloc1.style.transform = translateX({ $translateValuepx });
     }
 
     function nextSlide() {
