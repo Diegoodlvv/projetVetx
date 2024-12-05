@@ -1667,3 +1667,69 @@ body {
 .soustitre_sh {
     font-size: 25px;
 }
+
+/*passage bloc*/
+
+
+.abu {
+    margin-top: 250px;
+    background-color: #FFFAF6;
+    height: 80vh;
+    padding-top: 180px;
+    display: flex;
+}
+
+.leftPart_abu {
+    position: relative;
+    width: 100%;
+}
+
+.Grandeimg_abu {
+    width: 600px;
+    border-radius: 5%;
+    transform: rotate(-3deg);
+    margin-left: 150px;
+}
+
+.Petiteimg_abu {
+    position: absolute;
+    width: 300px;
+    right: -20%;
+    border: white 8px solid;
+    border-radius: 10%;
+    top: 8%;
+    transform: rotate(3deg);
+}
+
+.rightPart_abu {
+    margin-left: 12vw;
+}
+
+.titre_abu {
+    font-size: 60px;
+}
+
+.soustitre_abu {
+    width: 85%;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.flex_abu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex_abu img {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin: 10px 20px 0 0;
+}
+
+.Contact_abu {
+    width: fit-content;
+    font-size: 18px;
+    padding: 25px 4%;
+    margin-top: 20px;
+}
