@@ -160,6 +160,7 @@ p.Contact_h {
     text-align: center;
     width: fit-content;
     position: absolute;
+    right: 0;
     z-index: 999;
     background-color: #FE6B59;
     margin-top: 18px;
@@ -1674,9 +1675,9 @@ body {
 .abu {
     margin-top: 250px;
     background-color: #FFFAF6;
-    height: 80vh;
-    padding-top: 180px;
+    padding: 180px 0;
     display: flex;
+    flex-direction: row-reverse;
 }
 
 .leftPart_abu {
@@ -1688,7 +1689,7 @@ body {
     width: 600px;
     border-radius: 5%;
     transform: rotate(-3deg);
-    margin-left: 150px;
+    margin-left: 8vw;
 }
 
 .Petiteimg_abu {
@@ -1730,6 +1731,86 @@ body {
 .Contact_abu {
     width: fit-content;
     font-size: 18px;
-    padding: 25px 4%;
+    padding: 25px 5vw;
     margin-top: 20px;
+}
+
+@media screen and (max-width:1350px) {
+    .abu {
+        display: block;
+
+    }
+
+    .titre_abu {
+        margin: 50px 0 0 0;
+    }
+
+    .leftPart_abu {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .Grandeimg_abu {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .Petiteimg_abu {
+        right: -15%;
+        width: 45%;
+    }
+
+    .rightPart_abu {
+        margin: 0 auto;
+        justify-content: center;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .titre_abu {
+        font-size: 30px;
+    }
+
+    .soustitre_abu {
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    .flexInfos_abu {
+        font-size: 15px;
+    }
+
+    .flex_abu {
+        margin-top: 10px;
+    }
+
+    .Contact_abu {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+
+    .leftPart_abu {
+        width: 80%;
+        margin-left: 4vw;
+    }
+
+    .rightPart_abu {
+        width: 100%;
+        margin-left: 4vw;
+    }
+
+    .titre_abu {
+        font-size: 25px;
+    }
+
+    .soustitre_abu {
+        font-size: 16px;
+    }
 }
