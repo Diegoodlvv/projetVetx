@@ -52,6 +52,11 @@ h5:hover {
     border-bottom: white 2px solid;
 }
 
+button {
+    border: 0px;
+    background-color: white;
+}
+
 a
 
 /*liens*/
@@ -1162,11 +1167,14 @@ PASSAGE SITE ABOUT*/
     }
 }
 
+/*PageHome*/
+
+
+
 .hHome {
     height: 100%;
     background-color: #FFFAF6;
-    border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 30%;
+    border-radius: 0% 0% 50% 50% / 0% 0% 18% 18%;
 }
 
 .Av {
@@ -1200,7 +1208,7 @@ PASSAGE SITE ABOUT*/
 .Grandeimg_av {
     width: 100%;
     margin: 120px 0 0 0;
-    border-bottom-right-radius: 38%;
+    border-bottom-right-radius: 50%;
     border-bottom-left-radius: 10%;
     position: relative;
     z-index: 1;
@@ -1358,4 +1366,288 @@ PASSAGE SITE ABOUT*/
         font-size: 15px;
         padding: 20px;
     }
+}
+
+.clock_info {
+    width: 50px;
+    height: 50px;
+    background-color: #F2F1EF;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.mail_info {
+    width: fit-content;
+    height: 85px;
+}
+
+.loc_info {
+    width: 85px;
+    height: 85px;
+
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto 0 auto;
+    width: 85%;
+}
+
+.barre_info {
+    margin: 80px auto;
+    width: 85%;
+    background-color: #E1DBDB;
+}
+
+.date {
+    display: flex;
+    margin: 5% 0 0px 0;
+}
+
+.text_infos {
+    margin: 0 0 0 8px;
+}
+
+.day_info {
+    margin-top: 0;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+}
+
+.infotexte {
+    margin-left: 20px;
+}
+
+.lieu_info {
+    width: 90%;
+}
+
+@media screen and (max-width:1600px) {
+
+    .infos {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:950px) {
+
+    .text_infos {
+        font-size: 15px;
+        margin-left: 0;
+    }
+
+    .day_info {
+        font-size: 15px;
+    }
+
+    .date {
+        margin: 0;
+    }
+
+    .infos {
+        width: 100%;
+    }
+
+    .info {
+        margin-left: 2%;
+        display: block;
+    }
+
+    .clock_info {
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+    }
+
+    .loc_info {
+        width: 50px;
+        height: 50px;
+    }
+
+    .mail_info {
+        width: 50px;
+        height: 50px;
+    }
+
+    .lieu_info {
+        font-size: 15px;
+    }
+
+    .infotexte {
+        margin-left: 0;
+    }
+
+
+}
+
+@media screen and (max-width:700px) {
+
+    .infos {
+        display: block;
+    }
+
+    .info {
+        margin-top: 40px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .date {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .day_info {
+        width: 60%;
+    }
+
+    .text_infos {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .info {
+        text-align: left;
+    }
+
+    .date {
+        margin: 0;
+        width: 100%;
+    }
+
+    .day_info {
+        width: 100px;
+    }
+}
+
+.Carrousel_os {
+    display: flex;
+}
+
+.os {
+    margin-top: 200px;
+    height: 50vh;
+    width: 130%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: 8%;
+}
+
+.titre_os {
+    font-size: 40px;
+}
+
+.topPart_os {
+    justify-content: space-between;
+    display: flex;
+    width: 65%;
+}
+
+.chevron_os {
+    border: #DBD9DA 2px solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.chevron_os:hover {
+    background-color: #FE6B59;
+    border: 3px solid rgb(189, 187, 187);
+}
+
+
+.part_os {
+    display: flex;
+    width: 800px;
+    border: 2px solid #DBD9DA;
+    padding: 50px 0% 50px 30px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.petittitre_os {
+    font-size: 35px;
+    font-weight: 900;
+    margin: 0px 0 0 0;
+    width: fit-content;
+}
+
+.soustitre_os {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.grandeimg_os {
+    height: fit-content;
+}
+
+
+.flexbutton_os {
+    display: flex;
+    width: 28%;
+    justify-content: space-between;
+    margin: 30px 0 10px 0;
+}
+
+.flex_os {
+    background-color: #F2F1EF;
+    display: flex;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.flex_os img {
+    height: fit-content;
+}
+
+.infobuttons_os {
+    margin: 0;
+    width: 70px;
+}
+
+.textpart_os {
+    margin-left: 2vw;
+    width: 100%;
+}
+
+
+
+
+
+/* PASSAGE PAGE SHOP */
+
+.hShop {
+    background-color: #FFFAF6;
+    padding-bottom: 300px;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
+
+.topPart_sh {
+    text-align: center;
+    width: 50%;
+    margin: 130px auto 0 auto;
+}
+
+.titre_sh {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.soustitre_sh {
+    font-size: 25px;
 }
