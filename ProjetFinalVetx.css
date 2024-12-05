@@ -762,19 +762,8 @@ PASSAGE SITE ABOUT*/
     width: 1000px;
     font-size: 25px;
     margin: 0 auto;
-    animation: soustitre_au 1s linear;
 }
 
-
-@keyframes soustitre_au {
-    from {
-        width: 300px;
-    }
-
-    to {
-        width: 1000px;
-    }
-}
 
 .imagesbloc_au {
     position: relative;
