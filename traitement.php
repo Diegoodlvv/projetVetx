@@ -12,6 +12,9 @@ try {
     echo "Erreur : " . $e->getMessage();
 }
 
+var_dump($_GET);
+var_dump($_POST);
+die;
 if (isset($_POST['recup'])) {
     var_dump($_POST);
     $nom = $_POST['name'];
