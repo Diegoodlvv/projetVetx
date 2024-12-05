@@ -5,8 +5,7 @@ body {
 
 h1
 
-/*titres*/
-  {
+/*titres*/ {
   color: #2c2524;
   font-family: Poppins;
   font-size: 22px;
@@ -15,8 +14,7 @@ h1
 
 h2
 
-/*sous_titres*/
-  {
+/*sous_titres*/ {
   color: #817d7d;
   font-family: Poppins;
   font-size: 18px;
@@ -25,31 +23,27 @@ h2
 
 h3
 
-/*petits titre (formulaires, divs ect)*/
-  {
+/*petits titre (formulaires, divs ect)*/ {
   color: #2c2524;
   font-family: Poppins;
 }
 
 h4
 
-/*titres de la taille des boutons header*/
-  {
+/*titres de la taille des boutons header*/ {
   color: #2c2524;
   font-family: Poppins;
 }
 
 a
 
-/*liens*/
-  {
+/*liens*/ {
   text-decoration: none;
 }
 
 P
 
-/*boutonContactUsOrange*/
-  {
+/*boutonContactUsOrange*/ {
   background-color: #fe6b59;
   color: white;
   height: fit-content;
@@ -108,7 +102,7 @@ P
   width: 50%;
   margin-left: 28%;
   display: flex;
-  margin-top: 6%;
+  margin-top: 0%;
 }
 
 .M_Title h5 {
@@ -124,7 +118,7 @@ P
   width: 162px;
   cursor: pointer;
   margin-left: 18%;
-  margin-bottom: 28%;
+  margin-bottom: 16%;
   padding: 0;
   cursor: pointer;
 }
