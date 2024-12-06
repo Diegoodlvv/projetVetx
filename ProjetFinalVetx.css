@@ -1931,14 +1931,15 @@ body {
 
 .bigpart_sh {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto 100px auto;
-    width: 70%;
+    width: 80%;
 }
 
 .part_sh {
     width: fit-content;
-    margin: 0 auto;
+    margin: 30px 30px;
 }
 
 .part_sh img {
@@ -1974,4 +1975,74 @@ body {
     font-weight: 700;
     font-size: 20px;
     text-decoration: line-through;
+}
+
+.barre_sh {
+    background-color: #E0DBDB;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:1200px) {
+
+    .soustitre_sh {
+        font-size: 18px;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .topPart_sh {
+        width: 100%;
+    }
+
+    .bigpart_sh {
+        width: 100%;
+    }
+
+    .part_sh {
+        margin: 30px 10px;
+        width: 47%;
+    }
+
+    .part_sh img {
+        width: 100%;
+    }
+
+    .soustitre2_sh {
+        width: fit-content;
+    }
+}
+
+
+@media screen and (max-width:685px) {
+
+    .soustitre_sh {
+        font-size: 20px;
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    .titre_sh {
+        font-size: 8vw;
+    }
+
+
+    .part_sh {
+        width: 90%;
+    }
+
+    .petittitre_sh {
+        font-size: 5vw;
+    }
+
+    .soustitre2_sh {
+        font-size: 3vw;
+    }
+
+    .price_sh,
+    .pricebefore {
+        font-size: 3vw;
+    }
+
 }
