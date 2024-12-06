@@ -5,7 +5,12 @@ btn.addEventListener('click', () => {
     text.classList.toggle('BurgerButtons2');
 });
 
+var btn2 = document.querySelector('.pages')
+const text2 = document.querySelector('.pagesheader')
 
+btn2.addEventListener('click', () => {
+    text2.classList.toggle('pagesheader2');
+});
 
 document.addEventListener('DOMContentLoaded', function () {
     const carouselWrapperBloc1 = document.getElementById('carouselWrapperBloc1');

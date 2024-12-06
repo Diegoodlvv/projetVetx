@@ -48,6 +48,18 @@ h5 {
     border: #FE6B59 2px solid;
 }
 
+
+h6 {
+    font-family: Poppins;
+    color: #2c2524;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 800;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
 h5:hover {
     border-bottom: white 2px solid;
 }
@@ -125,6 +137,7 @@ p.Contact_h {
 .logo_h {
     width: 200px;
     margin-left: 5vw;
+    height: fit-content;
 }
 
 .buttons_h {
@@ -136,10 +149,40 @@ p.Contact_h {
 }
 
 .buttonspecial_h {
-    margin-left: 2vw;
+    margin-left: 1vw;
 }
 
 .services_h {
+    display: flex;
+}
+
+
+.services {
+    display: block;
+}
+
+.pages {
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.pagesheader {
+    text-align: center;
+    display: none;
+}
+
+.pagesheader.pagesheader2 {
+    display: block;
+}
+
+.pages img {
+    width: 20px;
+    height: 20px;
+    margin: 23px 0 0 10px;
+}
+
+.flexpages_h {
     display: flex;
 }
 
@@ -176,10 +219,18 @@ p.Contact_h {
     display: block;
 }
 
-@media screen and (max-width:830px) {
+@media screen and (max-width:890px) {
 
 
     .button_h {
+        display: none;
+    }
+
+    .pages img {
+        display: none;
+    }
+
+    .pagesheader.pagesheader2 {
         display: none;
     }
 
@@ -1572,6 +1623,10 @@ PASSAGE SITE ABOUT*/
 }
 
 .Carrousel_os {
+    display: flex;
+}
+
+#CarouselWrapperbloc1 {
     display: flex;
 }
 
