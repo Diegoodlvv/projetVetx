@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    overflow-x: hidden;
 }
 
 
@@ -42,10 +43,13 @@ h4
 h5 {
     font-family: Poppins;
     color: white;
+    padding-bottom: 5px;
     background-color: #FE6B59;
     font-weight: 500;
     text-align: center;
     border: #FE6B59 2px solid;
+    border-radius: 100%;
+    width: 100%;
 }
 
 
@@ -62,6 +66,9 @@ h6 {
 
 h5:hover {
     border-bottom: white 2px solid;
+    border-radius: 100%;
+    width: 100%;
+    transition: 1s;
 }
 
 button {
@@ -199,7 +206,7 @@ p.Contact_h {
 }
 
 .burgermenu_h {
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     width: fit-content;
     position: absolute;
@@ -1633,7 +1640,7 @@ PASSAGE SITE ABOUT*/
 .os {
     margin-top: 200px;
     height: 50vh;
-    width: 130%;
+    width: 175%;
     justify-content: center;
     margin: 0 auto;
     margin-left: 8%;
@@ -1646,34 +1653,32 @@ PASSAGE SITE ABOUT*/
 .topPart_os {
     justify-content: space-between;
     display: flex;
-    width: 65%;
+    width: 48%;
 }
 
-.chevron_os {
+#nextBloc1,
+#backBloc1 {
     border: #DBD9DA 2px solid;
     border-radius: 10px;
     padding: 15px;
     margin-right: 10px;
 }
 
-.chevron_os:hover {
+/* .chevron_os:hover {
     background-color: #FE6B59;
     border: 3px solid rgb(189, 187, 187);
-}
+} */
 
 
 .part_os {
     display: flex;
-    width: 800px;
+    width: 774px;
     border: 2px solid #DBD9DA;
     padding: 50px 0% 50px 30px;
     border-radius: 20px;
     margin-right: 50px;
 }
 
-body {
-    overflow-x: hidden;
-}
 
 .petittitre_os {
     font-size: 35px;
@@ -1733,7 +1738,7 @@ body {
 .BottomPart_os {
     display: flex;
     justify-content: center;
-    width: 65%;
+    width: 45%;
     margin-top: 30px;
 }
 
