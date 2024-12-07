@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentIndex = 0;
 
     function updateCarousel() {
-        const translateValue = -currentIndex * 774;
-        carouselWrapperBloc1.style.transform = translateX({ translateValuepx });
+        const translateValue = -currentIndex * 780;
+        carouselWrapperBloc1.style.transform = translateX({ translateValue });
     }
 
     function nextSlide() {
@@ -46,3 +46,4 @@ document.addEventListener('DOMContentLoaded', function () {
     nextBloc1.addEventListener('click', prevSlide);
 
 });
+

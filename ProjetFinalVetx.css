@@ -218,6 +218,10 @@ p.Contact_h {
     display: none;
 }
 
+.Contact_h a {
+    color: white;
+}
+
 .BurgerButtons {
     display: none;
 }
@@ -583,10 +587,7 @@ form {
     margin-left: 15%;
 }
 
-.button_qs1,
-.button_qs2,
-.button_qs3,
-.button_qs4 {
+.button_qs {
     font-weight: 800;
     border: 1px #D1CDCE solid;
     width: 25vw;
@@ -602,10 +603,7 @@ form {
     z-index: 1;
 }
 
-.button_qs1.\.button2_qs,
-.button_qs2.\.button2_qs,
-.button_qs3.\.button2_qs,
-.button_qs4.\.button2_qs {
+.button2_qs {
     border: solid 2px #FE6B59;
     color: #FE6B59;
 }
@@ -726,10 +724,7 @@ form {
 
     }
 
-    .button_qs1,
-    .button_qs2,
-    .button_qs3,
-    .button_qs4 {
+    .button_qs {
         width: 95%;
         margin: 30px 0;
         padding-right: 0;
@@ -773,10 +768,8 @@ form {
         font-size: 13px;
     }
 
-    .button_qs1,
-    .button_qs2,
-    .button_qs3,
-    .button_qs4 {
+
+    .button_qs {
         font-size: 15px;
     }
 
@@ -1355,6 +1348,10 @@ PASSAGE SITE ABOUT*/
     max-width: 30%;
 }
 
+.Contact_av a {
+    color: white;
+}
+
 @keyframes yo {
     from {
         transform: rotate(0deg);
@@ -1629,8 +1626,10 @@ PASSAGE SITE ABOUT*/
     }
 }
 
-.Carrousel_os {
+.CarouselWrapperbloc1 {
     display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: auto;
 }
 
 #CarouselWrapperbloc1 {
@@ -1656,12 +1655,22 @@ PASSAGE SITE ABOUT*/
     width: 48%;
 }
 
+.buttons_os {
+    display: flex;
+    width: auto;
+}
+
 #nextBloc1,
 #backBloc1 {
     border: #DBD9DA 2px solid;
     border-radius: 10px;
-    padding: 15px;
+    padding-left: 15%;
     margin-right: 10px;
+    width: 100px;
+    height: 80px;
+    align-items: center;
+    transition: 0.5s;
+    display: flex;
 }
 
 /* .chevron_os:hover {
@@ -1677,6 +1686,12 @@ PASSAGE SITE ABOUT*/
     padding: 50px 0% 50px 30px;
     border-radius: 20px;
     margin-right: 50px;
+    transition: 0.5s;
+}
+
+.carouselPart_os {
+    overflow: hidden;
+    align-items: start;
 }
 
 
