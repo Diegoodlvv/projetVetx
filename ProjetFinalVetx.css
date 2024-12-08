@@ -985,7 +985,8 @@ PASSAGE SITE ABOUT*/
 .img1_sy img {
     width: 700px;
     border-radius: 15px;
-    transform: rotate(2deg);
+    animation: lra2 3s linear infinite;
+
 }
 
 .img2_sy {
@@ -997,7 +998,36 @@ PASSAGE SITE ABOUT*/
 .img2_sy img {
     width: 700px;
     border-radius: 15px;
-    transform: rotate(-2deg);
+    animation: lra 3s linear infinite;
+}
+
+@keyframes lra {
+    0% {
+        transform: rotate(-5deg);
+    }
+
+    50% {
+        transform: rotate(5deg)
+    }
+
+    100% {
+        transform: rotate(-5deg)
+    }
+}
+
+
+@keyframes lra2 {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-5deg)
+    }
+
+    100% {
+        transform: rotate(5deg)
+    }
 }
 
 @media screen and (max-width:1730px) {
