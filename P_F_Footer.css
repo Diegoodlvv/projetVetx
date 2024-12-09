@@ -93,7 +93,7 @@ P
   background-color: #e0dada;
   width: 36px;
   height: 17px;
-  border-radius: 126px;
+  border-radius: 50%;
   padding: 8px 2px 12px 0px;
   margin: 1% 0.8% 0px 3%;
 }
@@ -159,8 +159,9 @@ P
   background-color: #fbfbfb;
   padding: 44px 1px 20px 37px;
   flex-direction: column;
-  width: 100%;
+  width: 389px;
   border-radius: 12px;
+  height: 100%;
 }
 
 .R_In_Contact h3 {
@@ -230,5 +231,8 @@ P
 
   .L_F_Img1 {
     padding: 5px 2px 2px 0px;
+  }
+  .R_Contact_Img2 {
+    margin: 290px 0% 0% 378px;
   }
 }
