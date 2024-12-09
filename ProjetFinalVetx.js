@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function nextSlide() {
-        if (currentIndex < 3) {
+        if (currentIndex < 4) {
             currentIndex++;
         } else {
             currentIndex = 0;
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (currentIndex > 0) {
             currentIndex--;
         } else {
-            currentIndex = 3;
+            currentIndex = 4;
         }
         updateCarousel();
     }
