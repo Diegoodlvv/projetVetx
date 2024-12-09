@@ -13,19 +13,19 @@ btn2.addEventListener('click', () => {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    const carouselWrapperBloc1 = document.getElementById('carouselWrapperBloc1');
-    const backBloc1 = document.getElementById('backBloc1');
-    const nextBloc1 = document.getElementById('nextBloc1');
+    const carouselPart = document.getElementById('carouselPart');
+    const backPart = document.getElementById('backPart');
+    const nextPart = document.getElementById('nextPart');
 
     let currentIndex = 0;
 
     function updateCarousel() {
-        const translateValue = -currentIndex * 780;
-        carouselWrapperBloc1.style.transform = translateX({ translateValue });
+        const translateValue = -currentIndex * 550;
+        carouselPart.style.transform = `translateX(${translateValue}px)`;
     }
 
     function nextSlide() {
-        if (currentIndex < 2) {
+        if (currentIndex < 3) {
             currentIndex++;
         } else {
             currentIndex = 0;
@@ -37,13 +37,13 @@ document.addEventListener('DOMContentLoaded', function () {
         if (currentIndex > 0) {
             currentIndex--;
         } else {
-            currentIndex = 2;
+            currentIndex = 3;
         }
         updateCarousel();
     }
     //CAROUSSEL NUMER0 2
-    backBloc1.addEventListener('click', nextSlide);
-    nextBloc1.addEventListener('click', prevSlide);
+    backPart.addEventListener('click', nextSlide);
+    nextPart.addEventListener('click', prevSlide);
 
 });
 
