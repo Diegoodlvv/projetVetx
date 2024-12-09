@@ -872,22 +872,29 @@ PASSAGE SITE ABOUT*/
 }
 
 @keyframes turn2 {
+
+    0% {
+        right: 5%;
+    }
+
     25% {
-        right: 50%;
-        bottom: -20%;
+        right: 55%;
+        bottom: -30%;
     }
 
     50% {
-        bottom: 50%;
+        bottom: 60%;
         right: 50%;
     }
 
     75% {
         bottom: 50%;
-        right: 0%;
+        right: 1%;
     }
 
-    100% {}
+    100% {
+        right: 5%;
+    }
 
 
 }
@@ -1822,7 +1829,7 @@ PASSAGE SITE ABOUT*/
 .abu {
     margin-top: 250px;
     background-color: #FFFAF6;
-    padding: 180px 0;
+    padding: 10% 0;
     display: flex;
     flex-direction: row-reverse;
 }
