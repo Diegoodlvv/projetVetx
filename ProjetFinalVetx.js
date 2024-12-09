@@ -48,3 +48,38 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    const carouselPart2 = document.getElementById('Carousel_woc');
+    const backPart2 = document.getElementById('Gauche_woc');
+    const nextPart2 = document.getElementById('Droite_woc');
+    let body = document.querySelector('body');
+
+    let currentIndex2 = 0;
+
+    function updateCarousel() {
+        const translateValue2 = -currentIndex2 * 1200;
+        carouselPart2.style.transform = `translateX(${translateValue2}px)`;
+    }
+
+    function nextSlide() {
+        if (currentIndex2 < 4) {
+            currentIndex2++;
+        } else {
+            currentIndex2 = 0;
+        }
+        updateCarousel();
+    }
+
+    function prevSlide() {
+        if (currentIndex2 > 0) {
+            currentIndex2--;
+        } else {
+            currentIndex2 = 4;
+        }
+        updateCarousel();
+    }
+    //CAROUSSEL NUMER0 2
+    backPart2.addEventListener('click', nextSlide);
+    nextPart2.addEventListener('click', prevSlide);
+
+});
