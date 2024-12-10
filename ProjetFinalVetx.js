@@ -57,37 +57,31 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentIndex2 = 0;
 
     function updateCarousel() {
-        const translateValue2 = -currentIndex2 * 100;
+        const translateValue2 = -currentIndex2 * 102;
         carouselPart2.style.transform = `translateY(${translateValue2}%)`;
     }
 
-    function updateCarousel2() {
-        const translateValue2 = -currentIndex2 * 100;
-        carouselPart2.style.transform2 = `translateY(${translateValue2}vh)`;
-    }
 
 
     function nextSlide() {
-        if (currentIndex2 < 1) {
+        if (currentIndex2 < 2) {
             currentIndex2++;
         } else {
             currentIndex2 = 0;
         }
         updateCarousel();
-        updateCarousel2();
     }
 
     function prevSlide() {
         if (currentIndex2 > 0) {
             currentIndex2--;
         } else {
-            currentIndex2 = 1;
+            currentIndex2 = 2;
         }
         updateCarousel();
-        updateCarousel2();
     }
     //CAROUSSEL NUMER0 2
-    backPart2.addEventListener('click', nextSlide);
-    nextPart2.addEventListener('click', prevSlide);
+    nextPart2.addEventListener('click', nextSlide);
+    backPart2.addEventListener('click', prevSlide);
 
 });

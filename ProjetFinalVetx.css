@@ -2149,12 +2149,12 @@ PASSAGE SITE ABOUT*/
 .Carousel_woc {
     border: 1px #DBD9DA solid;
     overflow-y: hidden;
-    justify-content: space-between;
     display: flex;
     width: 70%;
     height: 50vh;
     border-radius: 20px;
     margin-top: 50px;
+    background-color: white;
 }
 
 #Carousel_woc {
@@ -2163,6 +2163,7 @@ PASSAGE SITE ABOUT*/
 
 .img_woc {
     border-radius: 30px;
+    margin-top: 10px;
 }
 
 .carousel2 {
@@ -2201,12 +2202,47 @@ PASSAGE SITE ABOUT*/
     font-weight: 500;
 }
 
-.chevron_woc {
+.chevrongauche_woc {
     border: #DBD9DA 2px solid;
     width: 40px;
     padding: 10px;
     border-radius: 10px;
+    position: absolute;
+    left: 7%;
 }
+
+.chevrondroit_woc {
+    border: #DBD9DA 2px solid;
+    width: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    right: 7%;
+}
+
+#Gauche_woc.Gauche_woc,
+#Droite_woc.Droite_woc {
+    padding: 0;
+}
+
+.imgRouge_woc {
+    position: absolute;
+    z-index: -1;
+    left: 90px;
+    max-width: 20%;
+    animation: imagerouge_qs 5s linear infinite;
+}
+
+.imgVerte_woc {
+    position: absolute;
+    z-index: -1;
+    margin-top: 25%;
+    margin-left: 70%;
+    max-width: 20%;
+    animation: imageverte_qs 5s linear infinite;
+}
+
+
 
 @media screen and (max-width:1685px) {
 
@@ -2236,10 +2272,11 @@ PASSAGE SITE ABOUT*/
 
     .Carousel_woc {
         height: 100vh;
+        width: 70%;
     }
 
     .petittitre_woc {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .job_woc {
@@ -2251,11 +2288,18 @@ PASSAGE SITE ABOUT*/
     }
 
     .soustitre2_woc {
-        font-size: 25px;
+        font-size: 18px;
+        line-height: 40px;
     }
 
     .text_woc {
         width: 90%;
     }
 
-}
+    .imgVerte_woc {
+        margin-top: 1000px;
+    }
+
+    .imgRouge_woc {
+        left: 0%;
+    }
