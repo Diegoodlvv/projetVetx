@@ -2118,8 +2118,8 @@ PASSAGE SITE ABOUT*/
 }
 
 .woc {
-    padding-top: 8%;
-    height: 100vh;
+    padding: 8% 0;
+    height: 100%;
 }
 
 .topPart_woc {
@@ -2226,7 +2226,7 @@ PASSAGE SITE ABOUT*/
 @media screen and (max-width:1000px) {
     .Partcarousel_woc {
         display: block;
-        margin-bottom: 500px;
+        margin-bottom: 600px;
         padding-top: 0px;
     }
 
@@ -2235,7 +2235,7 @@ PASSAGE SITE ABOUT*/
     }
 
     .Carousel_woc {
-        height: 90vh;
+        height: 100vh;
     }
 
     .petittitre_woc {
