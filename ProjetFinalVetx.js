@@ -57,9 +57,15 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentIndex2 = 0;
 
     function updateCarousel() {
-        const translateValue2 = -currentIndex2 * 1450;
-        carouselPart2.style.transform = `translateX(${translateValue2}px)`;
+        const translateValue2 = -currentIndex2 * 100;
+        carouselPart2.style.transform = `translateY(${translateValue2}%)`;
     }
+
+    function updateCarousel2() {
+        const translateValue2 = -currentIndex2 * 100;
+        carouselPart2.style.transform2 = `translateY(${translateValue2}vh)`;
+    }
+
 
     function nextSlide() {
         if (currentIndex2 < 1) {
@@ -68,6 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
             currentIndex2 = 0;
         }
         updateCarousel();
+        updateCarousel2();
     }
 
     function prevSlide() {
@@ -77,6 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
             currentIndex2 = 1;
         }
         updateCarousel();
+        updateCarousel2();
     }
     //CAROUSSEL NUMER0 2
     backPart2.addEventListener('click', nextSlide);
