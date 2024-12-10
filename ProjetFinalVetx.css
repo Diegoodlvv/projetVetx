@@ -2136,26 +2136,26 @@ PASSAGE SITE ABOUT*/
 
 .mainPart_woc {
     display: flex;
-    justify-content: space-around;
 }
 
 .Partcarousel_woc {
     display: flex;
+    margin-right: 20vw;
     height: 480px;
-    width: 1200px;
-    margin-right: 0vw;
     padding: 2%;
     margin-top: 0px;
-    transition: transform 0.5s ease-in-out;
+    border: 1px #DBD9DA solid;
 }
 
 .Carousel_woc {
     display: flex;
-    border: 1px #DBD9DA solid;
-    overflow: hidden;
-    width: 1100px;
+    width: 70%;
     border-radius: 20px;
     margin-top: 50px;
+}
+
+#Carousel_woc {
+    transition: transform 0.5s ease-in-out;
 }
 
 .img_woc {
@@ -2164,6 +2164,7 @@ PASSAGE SITE ABOUT*/
 
 .text_woc {
     margin: 30px 0 0 3vw;
+    width: 40vw;
 }
 
 .petittitre_woc {
@@ -2175,7 +2176,6 @@ PASSAGE SITE ABOUT*/
 .soustitre2_woc {
     line-height: 40px;
     font-size: 20px;
-    width: 700px;
 }
 
 .Name_woc {

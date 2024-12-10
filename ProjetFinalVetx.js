@@ -57,12 +57,12 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentIndex2 = 0;
 
     function updateCarousel() {
-        const translateValue2 = -currentIndex2 * 1200;
+        const translateValue2 = -currentIndex2 * 1450;
         carouselPart2.style.transform = `translateX(${translateValue2}px)`;
     }
 
     function nextSlide() {
-        if (currentIndex2 < 4) {
+        if (currentIndex2 < 1) {
             currentIndex2++;
         } else {
             currentIndex2 = 0;
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (currentIndex2 > 0) {
             currentIndex2--;
         } else {
-            currentIndex2 = 4;
+            currentIndex2 = 1;
         }
         updateCarousel();
     }
