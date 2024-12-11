@@ -1136,11 +1136,6 @@ PASSAGE SITE ABOUT*/
 }
 
 .petitTitre_ov {
-<<<<<<< HEAD
-  font-weight: 900;
-  font-size: 35px;
-  margin-top: 0;
-=======
     font-weight: 900;
     font-size: 35px;
     margin-top: 0;
@@ -1168,7 +1163,6 @@ PASSAGE SITE ABOUT*/
     100% {
         color: black;
     }
->>>>>>> 6558aa729db2dad75b621cfd007fe2305be30f89
 }
 
 .soustitre_ov {
@@ -1991,8 +1985,6 @@ p.Contact_av:hover{
   }
 }
 
-<<<<<<< HEAD
-=======
 .woc {
     padding: 8% 0;
     height: 100%;
@@ -2202,7 +2194,6 @@ p.Contact_av:hover{
 }
 
 
->>>>>>> 6558aa729db2dad75b621cfd007fe2305be30f89
 /* PASSAGE PAGE SHOP */
 
 .hShop {
@@ -2333,7 +2324,6 @@ p.Contact_av:hover{
     font-size: 5vw;
   }
 
-<<<<<<< HEAD
   .soustitre2_sh {
     font-size: 3vw;
   }
@@ -2528,51 +2518,3 @@ p.Contact_av:hover{
     left: 0%;
   }
 }
-=======
-    .part_sh {
-        margin: 30px 10px;
-        width: 47%;
-    }
-
-    .part_sh img {
-        width: 100%;
-    }
-
-    .soustitre2_sh {
-        width: fit-content;
-    }
-}
-
-
-@media screen and (max-width:685px) {
-
-    .soustitre_sh {
-        font-size: 4vw;
-        width: 70%;
-        margin: 10px auto;
-    }
-
-    .titre_sh {
-        font-size: 8vw;
-    }
-
-
-    .part_sh {
-        width: 90%;
-    }
-
-    .petittitre_sh {
-        font-size: 5vw;
-    }
-
-    .soustitre2_sh {
-        font-size: 3vw;
-    }
-
-    .price_sh,
-    .pricebefore {
-        font-size: 3vw;
-    }
-
-}
->>>>>>> 6558aa729db2dad75b621cfd007fe2305be30f89

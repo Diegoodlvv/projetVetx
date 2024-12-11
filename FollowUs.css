@@ -74,23 +74,23 @@ a/*liens*/ {
 
 .F_U_B2 {
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   top: 0;
   right: 0;
-  margin-top: 3%;
-  margin-right: 3.5%;
+  margin-top: -5%;
+  margin-right: 1.5%;
   width: 10%;
-  transform: rotate(120deg);
+  transform: rotate(76deg);
 }
 
 .F_U_B3 {
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   top: 0;
   right: 0;
   width: 17%;
-  margin-top: 26%;
-  margin-right: 27%;
+  margin-top: 23%;
+  margin-right: 30%;
   transform: rotate(333deg);
 }
 
@@ -148,13 +148,16 @@ a/*liens*/ {
     margin-top: -12%;
     max-width: 23%;
   }
+  .F_U_B2 {
+    transform: rotate(106deg);
+  }
 }
 
 @media (max-width: 768px) {
   .F_U_B3 {
-    width: 19%;
-    margin-top: 31%;
-    margin-right: 36%;
+    width: 21%;
+    margin-top: 18%;
+    margin-right: 39%;
     transform: rotate(155deg);
   }
   .F_U_B1 {
@@ -193,23 +196,21 @@ a/*liens*/ {
     margin-bottom: 6%;
   }
   .F_U_B3 {
-    width: 19%;
-    margin-top: 667px;
-    margin-right: 36%;
+    width: 31%;
+    margin-top: 700px;
+    margin-right: 48%;
+    transform: rotate(358deg);
   }
   .F_U_B2 {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    margin-top: 89px;
-    margin-right: 15px;
-    width: 12%;
+    margin-top: -27px;
+    margin-right: -3px;
+    width: 23%;
     transform: rotate(93deg);
   }
   .F_U_B1 {
-    margin-left: -9%;
-    margin-top: -9%;
+    margin-left: -17%;
+    margin-top: -14%;
+    max-width: 36%;
   }
   .F_U_Top p {
     font-size: 178%;
