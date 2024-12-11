@@ -1709,7 +1709,7 @@ PASSAGE SITE ABOUT*/
 
 .carouselPart {
     display: flex;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.7s ease-in-out;
     width: auto;
 }
 
@@ -2339,7 +2339,7 @@ PASSAGE SITE ABOUT*/
 @media screen and (max-width:685px) {
 
     .soustitre_sh {
-        font-size: 20px;
+        font-size: 4vw;
         width: 70%;
         margin: 10px auto;
     }
