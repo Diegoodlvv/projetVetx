@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentIndex2 = 0;
 
     function updateCarousel() {
-        const translateValue2 = -currentIndex2 * 102;
+        const translateValue2 = -currentIndex2 * 100;
         carouselPart2.style.transform = `translateY(${translateValue2}%)`;
     }
 
