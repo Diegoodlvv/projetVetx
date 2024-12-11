@@ -2529,3 +2529,50 @@ p.Contact_av:hover {
         left: 0%;
     }
 }
+
+.part_sh {
+    margin: 30px 10px;
+    width: 47%;
+}
+
+.part_sh img {
+    width: 100%;
+}
+
+.soustitre2_sh {
+    width: fit-content;
+}
+
+
+
+@media screen and (max-width:685px) {
+
+    .soustitre_sh {
+        font-size: 4vw;
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    .titre_sh {
+        font-size: 8vw;
+    }
+
+
+    .part_sh {
+        width: 90%;
+    }
+
+    .petittitre_sh {
+        font-size: 5vw;
+    }
+
+    .soustitre2_sh {
+        font-size: 3vw;
+    }
+
+    .price_sh,
+    .pricebefore {
+        font-size: 3vw;
+    }
+
+}
