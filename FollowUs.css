@@ -48,7 +48,7 @@ a/*liens*/ {
 .F_U_Top p {
   font-size: 229%;
   display: flex;
-  margin: 25px 0px 0px 11px;
+  margin: 29px 0px 0px 11px;
   font-weight: 800;
   color: #fe6b59;
   text-decoration: underline;
@@ -62,13 +62,14 @@ a/*liens*/ {
 
 .F_U_B1 {
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   top: 0;
   left: 0;
-  width: 17%;
-  margin-top: 8px;
-  margin-left: 84px;
+  width: 294px;
+  margin-top: -130px;
+  margin-left: -118px;
   transform: rotate(115deg);
+  /* max-width: 16%; */
 }
 
 .F_U_B2 {
@@ -117,6 +118,7 @@ a/*liens*/ {
   margin-left: 25%;
   gap: 25px;
 }
+
 .F_U_M_Right img {
   width: 79%;
   border-radius: 16px;
@@ -130,12 +132,21 @@ a/*liens*/ {
   display: flex;
 }
 
+.barre_sh2 {
+  background-color: #e0dbdb;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 15%;
+}
+
 @media (max-width: 1020px) {
   .F_U_B1 {
-    margin-left: 4%;
+    margin-left: -9%;
     transform: rotate(115deg);
-    max-width: 17%;
-    margin-top: 5%;
+    /* max-width: 17%; */
+    margin-top: -12%;
+    max-width: 23%;
   }
 }
 
@@ -147,10 +158,10 @@ a/*liens*/ {
     transform: rotate(155deg);
   }
   .F_U_B1 {
-    margin-left: -5%;
+    margin-left: -11%;
     transform: rotate(84deg);
-    width: 22%;
-    margin-top: 8%;
+    /* width: 22%; */
+    margin-top: -9%;
   }
   .F_U_Mid {
     margin-left: 6%;
@@ -197,8 +208,8 @@ a/*liens*/ {
     transform: rotate(93deg);
   }
   .F_U_B1 {
-    margin-left: -5px;
-    margin-top: 79px;
+    margin-left: -9%;
+    margin-top: -9%;
   }
   .F_U_Top p {
     font-size: 178%;

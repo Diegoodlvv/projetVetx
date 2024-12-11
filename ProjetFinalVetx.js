@@ -47,6 +47,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
+document.addEventListener('click',() =>{
+    border.button_qs.toggle(button_qs2)
+});
+
 
 document.addEventListener('DOMContentLoaded', function () {
     const carouselPart2 = document.getElementById('Carousel_woc');
