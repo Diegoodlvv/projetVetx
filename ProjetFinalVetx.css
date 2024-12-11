@@ -1136,9 +1136,39 @@ PASSAGE SITE ABOUT*/
 }
 
 .petitTitre_ov {
+<<<<<<< HEAD
   font-weight: 900;
   font-size: 35px;
   margin-top: 0;
+=======
+    font-weight: 900;
+    font-size: 35px;
+    margin-top: 0;
+    animation: color 10s ease-in-out infinite;
+}
+
+@keyframes color {
+
+    0% {
+        color: black;
+    }
+
+    25% {
+        color: white;
+    }
+
+    50% {
+        color: red;
+    }
+
+    75% {
+        color: red;
+    }
+
+    100% {
+        color: black;
+    }
+>>>>>>> 6558aa729db2dad75b621cfd007fe2305be30f89
 }
 
 .soustitre_ov {
@@ -1651,9 +1681,9 @@ p.Contact_av:hover{
 }
 
 .carouselPart {
-  display: flex;
-  transition: transform 0.3s ease-in-out;
-  width: auto;
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+    width: auto;
 }
 
 #carouselPart {
@@ -1961,6 +1991,218 @@ p.Contact_av:hover{
   }
 }
 
+<<<<<<< HEAD
+=======
+.woc {
+    padding: 8% 0;
+    height: 100%;
+}
+
+.topPart_woc {
+    text-align: center;
+}
+
+.titre_woc {
+    font-size: 50px;
+}
+
+.soustitre_woc {
+    font-size: 25px;
+}
+
+.mainPart_woc {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Partcarousel_woc {
+    display: flex;
+    height: 480px;
+    padding: 2%;
+    margin-top: 0px;
+}
+
+.Carousel_woc {
+    border: 1px #DBD9DA solid;
+    overflow-y: hidden;
+    display: flex;
+    width: 70%;
+    height: 50vh;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+#Carousel_woc {
+    transition: transform 0.5s ease-in-out;
+}
+
+.img_woc {
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.carousel2 {
+    width: 100%;
+}
+
+.text_woc {
+    margin: 30px 0 0 3vw;
+    width: 43vw;
+}
+
+.petittitre_woc {
+    font-size: 2vw;
+    margin-top: 30px;
+    font-weight: 800;
+}
+
+.soustitre2_woc {
+    line-height: 40px;
+    font-size: 1.3vw;
+}
+
+.Name_woc {
+    color: #2c2524;
+    font-family: Poppins;
+    font-size: 1.3vw;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.job_woc {
+    color: #817d7d;
+    font-size: 1.3vw;
+    font-family: Poppins;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.chevrongauche_woc {
+    border: #DBD9DA 2px solid;
+    width: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 7%;
+}
+
+.chevrondroit_woc {
+    border: #DBD9DA 2px solid;
+    width: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    right: 7%;
+}
+
+#Gauche_woc.Gauche_woc,
+#Droite_woc.Droite_woc {
+    padding: 0;
+}
+
+.imgRouge_woc {
+    position: absolute;
+    z-index: -1;
+    left: 90px;
+    max-width: 20%;
+    animation: imagerouge_qs 10s linear infinite;
+}
+
+.imgVerte_woc {
+    position: absolute;
+    z-index: -1;
+    margin-top: 25%;
+    margin-left: 70%;
+    max-width: 20%;
+    animation: imageverte_qs 10s linear infinite;
+}
+
+
+
+@media screen and (max-width:1685px) {
+
+    .petittitre_woc {
+        margin-top: 0;
+    }
+
+    .soustitre2_woc {
+        line-height: 30px;
+    }
+
+    .Partcarousel_woc {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .Partcarousel_woc {
+        display: block;
+        margin-bottom: 600px;
+        padding-top: 0px;
+    }
+
+    .img_woc {
+        width: 100%;
+    }
+
+    .titre_woc {
+        font-size: 35px;
+    }
+
+    .soustitre_woc {
+        font-size: 16px;
+    }
+
+    .Carousel_woc {
+        height: 100vh;
+        width: 70%;
+    }
+
+    .petittitre_woc {
+        font-size: 25px;
+    }
+
+    .job_woc {
+        font-size: 20px;
+    }
+
+    .Name_woc {
+        font-size: 20px;
+    }
+
+    .soustitre2_woc {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .text_woc {
+        width: 90%;
+    }
+
+    .imgVerte_woc {
+        margin-top: 1000px;
+    }
+
+    .imgRouge_woc {
+        left: 0%;
+    }
+
+}
+
+@media screen and (max-width:440px) {
+
+    .titre_woc {
+        font-size: 25px;
+    }
+
+    .soustitre_woc {
+        font-size: 16px;
+    }
+}
+
+
+>>>>>>> 6558aa729db2dad75b621cfd007fe2305be30f89
 /* PASSAGE PAGE SHOP */
 
 .hShop {
@@ -2091,6 +2333,7 @@ p.Contact_av:hover{
     font-size: 5vw;
   }
 
+<<<<<<< HEAD
   .soustitre2_sh {
     font-size: 3vw;
   }
@@ -2285,3 +2528,51 @@ p.Contact_av:hover{
     left: 0%;
   }
 }
+=======
+    .part_sh {
+        margin: 30px 10px;
+        width: 47%;
+    }
+
+    .part_sh img {
+        width: 100%;
+    }
+
+    .soustitre2_sh {
+        width: fit-content;
+    }
+}
+
+
+@media screen and (max-width:685px) {
+
+    .soustitre_sh {
+        font-size: 4vw;
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    .titre_sh {
+        font-size: 8vw;
+    }
+
+
+    .part_sh {
+        width: 90%;
+    }
+
+    .petittitre_sh {
+        font-size: 5vw;
+    }
+
+    .soustitre2_sh {
+        font-size: 3vw;
+    }
+
+    .price_sh,
+    .pricebefore {
+        font-size: 3vw;
+    }
+
+}
+>>>>>>> 6558aa729db2dad75b621cfd007fe2305be30f89
