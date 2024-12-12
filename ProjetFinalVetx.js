@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-document.addEventListener('click',() =>{
+document.addEventListener('click', () => {
     border.button_qs.toggle(button_qs2)
 });
 

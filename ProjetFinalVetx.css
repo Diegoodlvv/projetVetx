@@ -1047,6 +1047,7 @@ form {
 .M_Title p {
     color: grey;
     background-color: unset;
+    border-bottom: 4px solid white;
     width: 162px;
     cursor: pointer;
     margin-left: 18%;
@@ -1232,7 +1233,7 @@ PASSAGE SITE ABOUT*/
     right: 10%;
     bottom: -35%;
     max-width: 10%;
-    animation: turn2 15s ease-out infinite;
+    animation: turn2 10s ease-out infinite;
 }
 
 @keyframes turn {
@@ -1319,7 +1320,7 @@ PASSAGE SITE ABOUT*/
     left: -7%;
     top: -20px;
     transform: rotate(-120deg);
-    animation: turn 15s ease-out infinite;
+    animation: turn 10s ease-out infinite;
     z-index: 0;
 }
 
@@ -2173,7 +2174,7 @@ p.Contact_av:hover {
 
 .grandeimg_os {
     height: fit-content;
-    animation: moveBack 2s ease-in-out infinite alternate;
+    animation: moveBack 3s ease-in-out infinite alternate;
 }
 
 @keyframes moveBack {
@@ -2182,11 +2183,11 @@ p.Contact_av:hover {
     }
 
     100% {
-        transform: translateY(-80px);
+        transform: translateY(0px);
     }
 
     100% {
-        transform: translateY(100px);
+        transform: translateY(50px);
     }
 }
 
@@ -2323,6 +2324,10 @@ p.Contact_av:hover {
 @media screen and (max-width: 1350px) {
     .abu {
         display: block;
+    }
+
+    .grandeimg_os {
+        animation: none;
     }
 
     .titre_abu {
@@ -2686,7 +2691,7 @@ p.Contact_av:hover {
     margin-bottom: 50px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1220px) {
     .soustitre_sh {
         font-size: 18px;
         width: 90%;
@@ -2858,7 +2863,7 @@ p.Contact_av:hover {
     z-index: -1;
     left: 90px;
     max-width: 20%;
-    animation: imagerouge_qs 5s linear infinite;
+    animation: imagerouge_qs 10s linear infinite;
 }
 
 .imgVerte_woc {
@@ -2867,7 +2872,7 @@ p.Contact_av:hover {
     margin-top: 25%;
     margin-left: 70%;
     max-width: 20%;
-    animation: imageverte_qs 5s linear infinite;
+    animation: imageverte_qs 10s linear infinite;
 }
 
 @media screen and (max-width: 1685px) {
@@ -2927,5 +2932,15 @@ p.Contact_av:hover {
 
     .imgRouge_woc {
         left: 0%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .titre_woc {
+        font-size: 25px;
+    }
+
+    .soustitre_woc {
+        font-size: 18px;
     }
 }
