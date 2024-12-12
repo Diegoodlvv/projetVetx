@@ -47,9 +47,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-document.addEventListener('click',() =>{
-    border.button_qs.toggle(button_qs2)
-});
+
+
+function changeColor(color) {
+    document.getElementById('text').style.color = color;
+}
 
 
 document.addEventListener('DOMContentLoaded', function () {

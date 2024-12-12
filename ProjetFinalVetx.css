@@ -601,6 +601,10 @@ form {
     color: #fe6b59;
 }
 
+.textbutton_qs h2{
+  color: unset;
+}
+
 .textbutton_qs {
     display: flex;
     z-index: 2;
