@@ -1082,23 +1082,24 @@ form {
 }
 
 .R_Contact_Img2 {
-    transform: rotate(121deg);
-    z-index: -1;
-    display: flex;
-    position: absolute;
-    margin: 301px 0% 0% 354px;
+  transform: rotate(121deg);
+  z-index: -1;
+  display: flex;
+  position: absolute;
+  margin: 301px 0% 0% 335px;
+  overflow: hidden;
 }
 
 .R_In_Contact {
-    z-index: 2;
-    display: flex;
-    position: relative;
-    background-color: #fbfbfb;
-    padding: 44px 1px 20px 37px;
-    flex-direction: column;
-    width: 389px;
-    border-radius: 12px;
-    height: 100%;
+  z-index: 2;
+  display: flex;
+  position: relative;
+  background-color: #fbfbfb;
+  padding: 44px 1px 20px 37px;
+  flex-direction: column;
+  width: 355px;
+  border-radius: 12px;
+  height: 100%;
 }
 
 .R_In_Contact h3 {
@@ -1131,6 +1132,12 @@ form {
     display: flex;
 }
 
+@media (max-width: 1520px){
+  .R_Contact_Img2{
+    margin: 307px 0% 0% 278px;
+  }
+}
+
 @media (max-width: 1340px) {
     .FootContainer {
         flex-direction: column;
@@ -1149,6 +1156,8 @@ form {
     .RightFoot {
         margin-top: 30px;
     }
+
+
 }
 
 @media (max-width: 860px) {
