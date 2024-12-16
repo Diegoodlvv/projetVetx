@@ -1082,24 +1082,24 @@ form {
 }
 
 .R_Contact_Img2 {
-  transform: rotate(121deg);
-  z-index: -1;
-  display: flex;
-  position: absolute;
-  margin: 301px 0% 0% 335px;
-  overflow: hidden;
+    transform: rotate(121deg);
+    z-index: -1;
+    display: flex;
+    position: absolute;
+    margin: 301px 0% 0% 335px;
+    overflow: hidden;
 }
 
 .R_In_Contact {
-  z-index: 2;
-  display: flex;
-  position: relative;
-  background-color: #fbfbfb;
-  padding: 44px 1px 20px 37px;
-  flex-direction: column;
-  width: 355px;
-  border-radius: 12px;
-  height: 100%;
+    z-index: 2;
+    display: flex;
+    position: relative;
+    background-color: #fbfbfb;
+    padding: 44px 1px 20px 37px;
+    flex-direction: column;
+    width: 355px;
+    border-radius: 12px;
+    height: 100%;
 }
 
 .R_In_Contact h3 {
@@ -1132,10 +1132,10 @@ form {
     display: flex;
 }
 
-@media (max-width: 1520px){
-  .R_Contact_Img2{
-    margin: 307px 0% 0% 278px;
-  }
+@media (max-width: 1520px) {
+    .R_Contact_Img2 {
+        margin: 307px 0% 0% 278px;
+    }
 }
 
 @media (max-width: 1340px) {
@@ -2705,6 +2705,11 @@ p.Contact_av:hover {
     margin-bottom: 50px;
 }
 
+.imgShop {
+    width: 420px;
+    height: 420px;
+}
+
 @media screen and (max-width: 1220px) {
     .soustitre_sh {
         font-size: 18px;
@@ -2873,5 +2878,84 @@ p.Contact_av:hover {
         font-size: 21px;
         width: 80%;
         margin-bottom: 70px;
+    }
+}
+
+
+
+
+/* PAGE ERROR*/
+
+.ErrorContainer {
+    background: #fffaf6;
+    border-bottom-left-radius: 37%;
+    border-bottom-right-radius: 37%;
+    height: 637px;
+}
+
+.TextError {
+    display: flex;
+    margin: 0 auto;
+}
+
+.ErrorTop {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.ErrorTop h1 {
+    color: #fe6b59;
+    font-size: 945%;
+    font-weight: 800;
+    margin-top: 101px;
+}
+
+.ErrorTop h2 {
+    color: black;
+    font-size: 195%;
+    font-weight: 800;
+    margin-top: -117px;
+}
+
+.ErrorP {
+    background-color: unset;
+    width: 467px;
+    color: grey;
+    font-size: 91%;
+    line-height: 31px;
+    padding: 0;
+    margin-left: 1%;
+    margin-top: 3px;
+}
+
+.ErrorHome {
+    width: 155px;
+}
+
+.Logo_Cat {
+    margin-top: 2%;
+}
+
+.barre_sh2 {
+    background-color: #e0dbdb;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 32px;
+    margin-top: 6%;
+}
+
+@media (max-width: 800px) {
+    .ErrorContainer {
+        background: #fffaf6;
+        border-bottom-left-radius: 23%;
+        border-bottom-right-radius: 25%;
+        height: 637px;
+    }
+
+    .ErrorP {
+        width: 57%;
     }
 }
