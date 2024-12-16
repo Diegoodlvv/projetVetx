@@ -2705,9 +2705,24 @@ p.Contact_av:hover {
     margin-bottom: 50px;
 }
 
-.imgShop {
-    width: 420px;
-    height: 420px;
+.leftPart_fart{
+    margin: 1% 0% 0% 21%;
+    width: 42%;
+}
+
+.flexPart_art{
+    display: flex;
+}
+
+.leftPart_fart img{
+    width: 68%;
+    border-radius: 35px;
+    margin-bottom: 1%;
+}
+
+.img_fart3 img{
+    width: 22.3%;
+    border-radius: 19px;
 }
 
 @media screen and (max-width: 1220px) {
