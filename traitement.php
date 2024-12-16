@@ -20,6 +20,7 @@ if (isset($_POST['recup'])) {
     $nom = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['Phone'];
+
     $service = $_POST['services'];
     $Date = $_POST['visitDate'];
     $Time = $_POST['schedule'];
