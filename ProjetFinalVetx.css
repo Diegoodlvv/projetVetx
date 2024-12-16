@@ -776,7 +776,7 @@ form {
 }
 
 .FollowUsContainer {
-    overflow-x: hidden;
+
     margin-top: 150px;
 }
 
@@ -2939,7 +2939,7 @@ p.Contact_av:hover {
     margin-top: 2%;
 }
 
-.barre_sh2 {
+.barre2_sh2 {
     background-color: #e0dbdb;
     height: 1px;
     width: 100%;
