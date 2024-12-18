@@ -118,9 +118,6 @@ input
     z-index: 1;
 }
 
-.top-contact {
-    background-image: url();
-}
 
 .header {
     padding-top: 10px;
@@ -1246,7 +1243,7 @@ PASSAGE SITE ABOUT*/
     right: 10%;
     bottom: -35%;
     max-width: 10%;
-    animation: turn2 10s ease-in-out infinite;
+    animation: turn2 10s ease-out infinite;
 }
 
 @keyframes turn {
@@ -1399,7 +1396,7 @@ PASSAGE SITE ABOUT*/
 .img1_sy img {
     width: 700px;
     border-radius: 15px;
-    animation: lra2 5s linear infinite;
+    animation: lra2 15s linear infinite;
 }
 
 .img2_sy {
@@ -1411,12 +1408,12 @@ PASSAGE SITE ABOUT*/
 .img2_sy img {
     width: 700px;
     border-radius: 15px;
-    animation: lra 5s linear infinite;
+    animation: lra 15s linear infinite;
 }
 
 @keyframes lra {
     0% {
-        transform: rotate(-5deg) scale(1);
+        transform: rotate(-5deg) scale(0.7);
     }
 
     50% {
@@ -1424,13 +1421,13 @@ PASSAGE SITE ABOUT*/
     }
 
     100% {
-        transform: rotate(-5deg) scale(1);
+        transform: rotate(-5deg) scale(0.7);
     }
 }
 
 @keyframes lra2 {
     0% {
-        transform: rotate(5deg);
+        transform: rotate(5deg) scale(0.7);
     }
 
     50% {
@@ -1438,7 +1435,7 @@ PASSAGE SITE ABOUT*/
     }
 
     100% {
-        transform: rotate(5deg) scale(1);
+        transform: rotate(5deg) scale(0.7);
     }
 }
 
